@@ -1,5 +1,11 @@
-
+from pyswip import Prolog
 import random
+
+prolog = Prolog()
+
+prolog.assertz("ingredient(strawberries)")
+
+print(str(prolog.query("ingredient(apples)")))
 
 def printRandoms():
 		Sum = 0
@@ -11,3 +17,4 @@ def printRandoms():
 		exit(0)
 
 printRandoms()
+
