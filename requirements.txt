@@ -1,2 +1,1 @@
 Pyswip == 0.2.8
-SWI-Prolog == 8.0
