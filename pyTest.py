@@ -1,8 +1,6 @@
-from flask import Flask
-import Random
-app = Flask(__name__)
 
-@app.route('/')
+import Random
+
 def printRandoms():
 		Sum = 0
 		for i in range(0,100):
