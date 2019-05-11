@@ -1,12 +1,3 @@
-from pyswip import Prolog
-import random
-
-prolog = Prolog()
-
-prolog.assertz("ingredient(strawberries)")
-
-print(str(prolog.query("ingredient(apples)")))
-
 def printRandoms():
 		Sum = 0
 		for i in range(0,100):
