@@ -1,10 +1,15 @@
 from flask import Flask
-
+import Random
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
-		print("Hello World!")
+def printRandoms():
+		Sum = 0
+		for i in range(0,100):
+			newNum = randint(0,100)
+			print("Iteration "+ str(i+1)+" >>> "+ str(newNum))
+			Sum += newNum
+		print("Total sum is "+ str(Sum))
 		exit(0)
 
-hello()
+printRandoms()
