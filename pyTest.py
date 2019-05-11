@@ -1,5 +1,5 @@
 
-import Random
+import random
 
 def printRandoms():
 		Sum = 0
