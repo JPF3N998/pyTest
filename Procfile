@@ -1,1 +1,1 @@
-web: python pyTest.py
+local: python pyTest.py
