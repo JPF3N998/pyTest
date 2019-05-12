@@ -9,7 +9,9 @@ def printRandoms():
 			Sum += newNum
 		print("Total sum is "+ str(Sum))
 		exit(0)
-
+		
+printRandoms()
+""""
 cwd = os.path.dirname(os.path.abspath(__file__))+str(chr(92)*2)
 cwd +=("prologSample.pl")
 
@@ -41,3 +43,5 @@ def getTags(contents):
 	return tags
 
 print(getTags(contents))
+
+"""
