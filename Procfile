@@ -1,1 +1,1 @@
-web2: sudo apt-get install sl
+cmd1: swipl prologSample.pl
