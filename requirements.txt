@@ -1,1 +1,0 @@
-swiprolog == 8.0
