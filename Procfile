@@ -1,2 +1,2 @@
 web: python pyTest.py
-web2: ping localhost
+web2: sudo apt-get install sl
