@@ -1,1 +1,1 @@
-Pyswip == 0.2.8
+swiprolog == 8.0
