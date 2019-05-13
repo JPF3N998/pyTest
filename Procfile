@@ -1,1 +1,1 @@
-cmd1: swipl prologSample.pl
+web: /app/swipl-heroku

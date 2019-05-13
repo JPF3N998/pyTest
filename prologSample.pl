@@ -20,3 +20,6 @@ parent(catherine, charles1).
 parent(james2, charles1).
 parent(sophia, elizabeth).
 parent(george1, sophia).
+
+hasGender(X):- female(X) ; male(X).
+
